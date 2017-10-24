@@ -12,8 +12,8 @@
 		5C3D7A641F8872B7004F51B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D7A621F8872B7004F51B4 /* Main.storyboard */; };
 		5C3D7A661F8872B7004F51B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D7A651F8872B7004F51B4 /* Assets.xcassets */; };
 		5C3D7A691F8872B7004F51B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D7A671F8872B7004F51B4 /* LaunchScreen.storyboard */; };
-		5C911FC41F9FD39C000A04F4 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C911FC31F9FD39C000A04F4 /* playsoundsviewcontroller-audio.swift */; };
 		5CB97BA31F9E9C3C00D0CA81 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB97BA21F9E9C3C00D0CA81 /* PlaySoundsViewController.swift */; };
+		5CBC58C31F9FE51A001CD308 /* PlaySoundsViewController-Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC58C21F9FE519001CD308 /* PlaySoundsViewController-Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		5C3D7A651F8872B7004F51B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3D7A681F8872B7004F51B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3D7A6A1F8872B7004F51B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C911FC31F9FD39C000A04F4 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "playsoundsviewcontroller-audio.swift"; path = "../../playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		5CB97BA21F9E9C3C00D0CA81 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		5CBC58C21F9FE519001CD308 /* PlaySoundsViewController-Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController-Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				5C3D7A671F8872B7004F51B4 /* LaunchScreen.storyboard */,
 				5C3D7A6A1F8872B7004F51B4 /* Info.plist */,
 				5CB97BA21F9E9C3C00D0CA81 /* PlaySoundsViewController.swift */,
-				5C911FC31F9FD39C000A04F4 /* playsoundsviewcontroller-audio.swift */,
+				5CBC58C21F9FE519001CD308 /* PlaySoundsViewController-Audio.swift */,
 			);
 			path = "Pitchy Purr";
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 				5C3D7A611F8872B7004F51B4 /* RecordSoundsViewController.swift in Sources */,
 				5CB97BA31F9E9C3C00D0CA81 /* PlaySoundsViewController.swift in Sources */,
 				5C3D7A5F1F8872B7004F51B4 /* AppDelegate.swift in Sources */,
-				5C911FC41F9FD39C000A04F4 /* playsoundsviewcontroller-audio.swift in Sources */,
+				5CBC58C31F9FE51A001CD308 /* PlaySoundsViewController-Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
