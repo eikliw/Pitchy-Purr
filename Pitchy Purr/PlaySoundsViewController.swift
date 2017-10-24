@@ -13,6 +13,7 @@ class PlaySoundsViewController: UIViewController {
 
     // MARK: Outlets
     
+    
     @IBOutlet weak var snailButton: UIButton!
     @IBOutlet weak var chipmunkButton: UIButton!
     @IBOutlet weak var rabbitButton: UIButton!
@@ -20,6 +21,7 @@ class PlaySoundsViewController: UIViewController {
     @IBOutlet weak var echoButton: UIButton!
     @IBOutlet weak var reverbButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
+    
     
     var recordedAudioURL: URL!
     var audioFile:AVAudioFile!
