@@ -21,7 +21,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         super.viewDidLoad()
         stopRecordingButton.isEnabled = false
         stopRecordingButton.isHidden = false
-    
     }
     
     // switch labels and button view
